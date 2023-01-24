@@ -3,7 +3,7 @@ import { Product } from '..'
 
 const ProductList = ({ products, compare, nameSearch }) => {
   const renderProducts = () => {
-    return products;
+    return products
   }
 
   return (
